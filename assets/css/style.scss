@@ -2,3 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
+
+h2.page-title {
+	padding-top:10px;
+}
+
+
+ul#contents {
+	list-style-type:none;
+	padding-left:20px;
+}
+
+ul#contents li {
+	font-weight:bold;
+	margin:5px 0px;
+	padding:10px 0px;
+}
